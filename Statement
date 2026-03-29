@@ -1,0 +1,35 @@
+📄 the problem statement 
+in today’s digital world, people use passwords for almost everything like social media, banking, emails, and for various things. however, many users create 
+passwords(weak) that are easy to guess putting their personal data at risk.the main objective of this project is to build a system that can 
+evaluate the strength of a password based on things like the length, use of uppercase and lowercase letters, numbers, and special characters. 
+this helps users understand how secure their password is and guides them in creating stronger ones. 
+
+🔧 this resolves issues like:
+users creating weak or predictable passwords 
+lack of awareness about password security 
+risk of unauthorized access to personal accounts
+
+📌 scope of the project 
+this project focuses on: 
+rule-based password strength checking 
+analyzing password composition (length, characters, etc.) 
+classifying passwords as weak, medium, or strong 
+providing feedback to improve password quality 
+
+❌ the project does not include: 
+advanced ai or machine learning models
+real-time hacking simulations 
+integration with live authentication systems 
+
+🧑‍🤝‍🧑 target users 
+students learning programming concepts 
+general users who want to create secure passwords 
+developers building basic security tools 
+anyone interested in improving password safety 
+
+🔍 high-level features 
+password input and analysis 
+strength classification (weak / medium / strong) 
+simple and easy-to-use interface 
+fast and efficient checking system 
+basic suggestions for improvement
