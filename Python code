@@ -1,0 +1,38 @@
+import re  #Regular expression module/library
+
+#creating a function to assess the strength of a given password.
+def check_password_strength(password):
+    score = 0
+
+    if len(password) >= 8: #checking the length of the password.
+        score += 1
+
+    if re.search(r"[A-Z]", password): #checking if the password has any uppercase alphabets.
+        score += 1
+
+    if re.search(r"[a-z]", password):#checking if the password has any lowercase alphabets.
+        score += 1
+
+    if re.search(r"[0-9]", password): #checking if the password has any numbers in it.
+        score += 1
+
+    if re.search(r"[!@#$%^&*(),.?\":{}|<>]", password): #checking if the password has any special characters in it. 
+        score += 1
+
+        print("Your password score is",score)
+    if score <= 2:
+        return "It is a Weak Password"
+    elif score <= 4:
+        return "It is a Medium Password"
+    else:
+        return "It is a Strong Password"
+
+
+print("This program assess your input password's strength\n")
+print("If the password score <=2 , it is a weak password")
+print("If the password score <=4 , it is a medium password")
+print("If the password score > 4 , it is strong password")
+
+A=input("\nEnter your password : ")#Entering your password
+print(check_password_strength(A))
+
