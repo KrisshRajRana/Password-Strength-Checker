@@ -38,8 +38,13 @@ view the strength result
 
 
 🧪 guidelines for testing
+
 run the program many times with many passwords
+
 try for weak passwords (e.g., abc123)
+
 try for medium passwords (e.g., abc12345)
+
 try for strong passwords (e.g., abc@12345!)
+
 observe how the output changes based on the given input password
