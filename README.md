@@ -5,6 +5,7 @@ this project is used to check strength of a password and help users have more se
 the main goal is to make users aware of password security and guide them in improving their passwords.
 
 📌 the project covers
+
 password input and analysis
 checking password length and character types
 strength classification (weak, medium, strong)
@@ -12,6 +13,7 @@ providing feedback for improvement
 simple and user-friendly execution
 
 ⭐ features
+
 takes input password from the user
 checks for uppercase, lowercase, numbers, and special characters
 classifies password strength
@@ -19,10 +21,12 @@ fast and efficient processing
 easy to understand output
 
 🛠️ Technologies / Tools Used
+
 Python 3.x
 Built-in functions(re.search)
 
 ⚙️ how to run the project
+
 make sure python is installed on your system
 download or clone the repository
 open the project folder
